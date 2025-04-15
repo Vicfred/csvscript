@@ -1,7 +1,2 @@
-employee id, name, job title,new id?
-102, Charlie, lawyer,old id
-102, Charlie, hr,old id
-103, Wendy, nurse,old id
-104, David, marketing,old id
-104, David, doctor,old id
-105, John, engineer,new id
+employee id, name, job title
+100, Alphonse, marketing

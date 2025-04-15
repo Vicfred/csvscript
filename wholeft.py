@@ -16,7 +16,7 @@ with open('march.csv', 'r') as march:
                 who_left.add(tuple(row))
     new_record_list = list(who_left)
     new_record_list.sort(key=lambda x: x[0])
-    with open('new_records.csv', 'w', newline='') as output_file:
+    with open('peole_who_left.csv', 'w', newline='') as output_file:
         writer = csv.writer(output_file)
         writer.writerow(march_headers)
         writer.writerows(new_record_list)

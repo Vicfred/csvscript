@@ -22,7 +22,6 @@ with open('february.csv', 'r') as february:
                 new_records.add(tuple(row))
     new_record_list = list(new_records)
     new_record_list.sort(key=lambda x: x[0])
-    print(new_record_list)
     with open('new_records.csv', 'w', newline='') as output_file:
         writer = csv.writer(output_file)
         writer.writerow(headers)
